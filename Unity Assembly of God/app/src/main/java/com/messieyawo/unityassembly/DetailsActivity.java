@@ -38,7 +38,7 @@ import java.util.ArrayList;
 
 public class DetailsActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
     private static final int READ_STORAGE_PERMISSION_REQUEST_CODE = 1;
-    private static String GOOGLE_YOUTUBE_API = "AIzaSyBH8szUCt1ctKQabVeQuvWgowaKxHVjn8E";//here you should use your api key for testing purpose you can use this api also
+    private static String GOOGLE_YOUTUBE_API = "";//here you should use your api key for testing purpose you can use this api also
     private YoutubeDataModel youtubeDataModel = null;
     TextView textViewName;
     TextView textViewDes;
