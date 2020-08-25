@@ -1,0 +1,46 @@
+Before OnCreate..
+private MediaType JSON = MediaType.parse("application/json");
+After OnCreate
+JSONObject jsonParams = new JSONObject();
+try {
+//Add string params
+jsonParams.put("customer_id", "E1743");
+jsonParams.put("location", "122");
+jsonParams.put("phone", "12345678");
+jsonParams.put("network", "Vodafone");
+jsonParams.put("vocher", "026356");
+} catch (JSONException e) {
+e.printStackTrace();
+}
+//Create json array for filter
+JSONArray array=new JSONArray();
+//Create json objects for two filter Ids
+JSONObject jsonParam1 =new JSONObject();
+JSONObject jsonParam2 =new JSONObject();
+JSONObject jsonParam3 =new JSONObject();
+try {
+jsonParam1.put("name","Item1");
+jsonParam1.put("quantity","40");
+jsonParam1.put("price","401");
+jsonParam2.put("name","Item2");
+jsonParam2.put("quantity","366");
+jsonParam2.put("price","144");
+} catch (JSONException e) {
+e.printStackTrace();
+}
+//Add the filter Id object to array
+array.put(jsonParam1);
+array.put(jsonParam2);
+//Add array to main json object
+try {
+jsonParam3.put("items", array);
+jsonParams.put("cart",jsonParam3);
+jsonParams.put("total_price", "545");
+} catch (JSONException e) {
+e.printStackTrace();
+}
+RequestBody body = RequestBody.create(JSON,jsonParams.toString());
+String JSONPost = jsonParams.toString();
+Log.d("JSONOrder", JSONPost);
+Results:
+D/JSONOrder: {"customer_id":"E1743","location":"122","phone":"12345678","network":"Vodafone","vocher":"026356","cart":{"items":[{"name":"Item1","quantity":"40","price":"401"},{"name":"Item2","quantity":"366","price":"144"}]},"total_price":"545"}

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Sell and Buy Books</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Dictionaries</string>
+    <string name="slide_1_desc">The easiest way to get new and used Books for your course is through this app.Register,browse books select and buy.</string>
+
+    <string name="slide_2_title">Find used or new Textbook for your course</string>
+    <string name="slide_2_desc">Share with friends and mates. </string>
+
+    <string name="slide_3_title">Great Discounts on used books.</string>
+    <string name="slide_3_desc">Put online unused course materials for friends and mates to buy..</string>
+
+    <string name="slide_4_title">Welcome to buy and sell new or used textbooks platform.</string>
+    <string name="slide_4_desc">What we do here is this, everyone having account can sell, search and buy used or new books from seniors or mates.This app is to help connect with Universities,Colleges and many others to make accessing textbooks for your course easy.Get registered to explore content.  </string>
+
+    <array name="book_type">
+        <item>Used.</item>
+        <item>Brand New.</item>
+        <item>Slightly Used.</item>
+        <item />
+    </array>
+
+
+    <array name="school_type">
+        <item>College.</item>
+        <item>University.</item>
+        <item>SHS.</item>
+        <item />
+    </array>
+</resources>
