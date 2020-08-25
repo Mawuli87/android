@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Unity assembly of God </string>
+
+
+    <array name="menuOptionsHome">
+        <item>Home</item>
+        <item>Sermons Videos</item>
+        <item>All Sermons Videos</item>
+        <item>About</item>
+        <item>Location</item>
+        <item>Policy</item>
+    </array>
+
+    <array name="verses_type">
+        <item>Healing verse.</item>
+        <item>Verse against anxiety.</item>
+        <item>Verse for comfort.</item>
+        <item>Verse for protection.</item>
+        <item>Verse for promises of God.</item>
+        <item>Verse for faith in hard time.</item>
+        <item>Verse on encouragement.</item>
+        <item>Verse for hope.</item>
+        <item>Verse for friendship.</item>
+        <item>Verse for forgiveness.</item>
+        <item>Verse for Strength.</item>
+        <item>Verse for inspiration.</item>
+        <item>Verse for giving.</item>
+        <item>Verse for Love.</item>
+        <item />
+    </array>
+
+
+    <string name="action_menu">Menus</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_settings_aa" />
+    <string name="adele_hello">Playing now Hello by Adele</string>
+    <string name="video_menu">Menus</string>
+    <string name="home_icon">Home</string>
+    <string name="video_live">Video Sermons</string>
+    <string name="music_albums">Albums</string>
+    <string name="music_artists">Artists</string>
+    <string name="privacy_location">Our Location</string>
+    <string name="policy">Policy</string>
+    <string name="app_raw_folder">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="live_fragment">video</string>
+    <string name="recently_added_users">Recently Added Users</string>
+    <string name="hello">Someone Like You</string>
+    <string name="your_playlists">Your Playlists</string>
+    <string name="let_me_go">Let Me Go</string>
+    <string name="toast_message">Demo playback finished.Please subscribe to enjoy full content</string>
+
+    <string name="usernameReg">Username</string>
+    <string name="emailReg">Email</string>
+    <string name="passwordReg">Password</string>
+    <string name="sign_upReg">Sign up</string>
+    <string name="sign_inLog">Sign in</string>
+    <string name="signin_redirect">Already a member? Sign in!</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="signup_redirect">Don\'t have an account? Register here!</string>
+    <string name="eagle_cry">Eagle Cry</string>
+
+    <string name="btnSendPrayerRequest">Send</string>
+    <string name="edttxtPrayerText">Prayer goes here.</string>
+    <string name="txtvwRequestType">Type of Request</string>
+    <string name="txtvwName">Name</string>
+    <string name="txtvwPrayerRequestIntro">Send us a prayer request and one of our Pastors will pray for you by name.</string>
+    <string name="txtvwPrayerRequestHeader">Prayer Requests</string>
+
+
+</resources>

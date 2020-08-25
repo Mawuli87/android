@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Fragments.VersesFragment">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content">
+
+        <com.prush.typedtextview.TypedTextView
+            android:id="@+id/typedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:cursor_blink_speed="530"
+            app:play_keystrokes_audio="true"
+            app:randomize_type_seed="75"
+            app:randomize_typing_speed="true"
+            app:sentence_pause="1500"
+            app:show_cursor="true"
+            app:split_sentences="true" />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <include layout="@layout/content_main_verses" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+       android:layout_gravity="bottom|right"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+        <com.tuann.floatingactionbuttonexpandable.FloatingActionButtonExpandable
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab"
+            app:fab_content="Add "
+            android:layout_gravity="bottom|end"
+            app:fab_icon="@drawable/small_eagle"
+            app:fab_bg_color="@color/colorPrimaryDark"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="60dp"
+            app:fab_expanded="true"
+            android:fadingEdge="horizontal"
+            app:fab_text_color="@color/colorWhite"/>
+    </LinearLayout>
+
+</FrameLayout>

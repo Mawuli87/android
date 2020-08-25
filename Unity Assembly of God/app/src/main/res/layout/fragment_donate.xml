@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".PopupMenu.DonateFragment">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:scaleType="centerCrop"
+          android:src="@drawable/give_bg_large" />
+
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentEnd="true"
+          android:layout_marginStart="50dp"
+          android:layout_marginTop="45dp"
+          android:layout_marginEnd="50dp"
+          android:layout_marginBottom="50dp"
+          android:gravity="center_horizontal"
+          android:text="Give To Unity assembly of God Papao11 haatso"
+          android:textColor="@color/colorWhite"
+          android:textSize="24sp"
+          android:textStyle="bold" />
+
+
+   </RelativeLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+          android:text="Ways to give"
+          android:layout_marginTop="5dp"
+          android:textColor="@color/colorWhite"
+          android:textSize="30sp"
+          android:textStyle="bold|italic" />
+
+
+   </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:id="@+id/linearMain"
+       android:layout_marginTop="5dp"
+       android:paddingLeft="1dp"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:id="@+id/whatsApp"
+             android:layout_weight="1"
+             android:src="@drawable/whatsapp"
+             android:textColor="@color/white"/>
+
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:layout_weight="1"
+             android:id="@+id/studioLine"
+             android:src="@drawable/studio_line_a" />
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:layout_weight="1"
+             android:src="@drawable/studio_line_b"
+             android:id="@+id/studioLine2" />
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:layout_weight="1"
+             android:src="@drawable/email"
+             android:id="@+id/email"
+
+             />
+
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:layout_weight="1"
+             android:id="@+id/emergency"
+             android:src="@drawable/whatsapp_hotline"
+             android:textSize="18dp"
+             android:textColor="@color/black"/>
+      </LinearLayout>
+
+   </LinearLayout>
+
+</LinearLayout>

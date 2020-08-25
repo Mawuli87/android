@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "933537298380",
+    "firebase_url": "https://uninity-assembly-of-god.firebaseio.com",
+    "project_id": "uninity-assembly-of-god",
+    "storage_bucket": "uninity-assembly-of-god.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933537298380:android:26cbff816aa28f4624cf69",
+        "android_client_info": {
+          "package_name": "com.messieyawo.unityassembly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933537298380-4a09sflqbircqh7b9s5pa7ag9vb697v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqx3Oc027a3rtKV5572lerKUUbIVHjaiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933537298380-4a09sflqbircqh7b9s5pa7ag9vb697v2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

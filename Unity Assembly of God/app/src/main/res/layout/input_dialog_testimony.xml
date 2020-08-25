@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#006600"
+       android:gravity="center_horizontal"
+        android:id="@+id/testimony_btn"
+        android:text="Testimony"
+        android:paddingTop="10dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp">
+
+
+
+            <EditText
+                android:id="@+id/testimonyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:hint=" Your name"
+                android:singleLine="true" />
+
+
+
+
+            <EditText
+                android:id="@+id/titleTestimony"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:singleLine="true"
+                android:hint= "Title" />
+
+
+
+                <EditText
+                    android:id="@+id/testmonyDescripton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:hint="Description"
+                    android:scrollbars="vertical"
+                    android:lines="8"
+                    android:inputType="textImeMultiLine" />
+
+
+
+            <EditText
+                android:id="@+id/dateTestimony"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:singleLine="true"
+                android:hint= "Date and time" />
+
+            <EditText
+                android:id="@+id/locatonTestimony"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:singleLine="true"
+                android:hint= "Your location" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button android:id="@+id/saveBtnTestimony"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Post Testimony"
+                android:clickable="true"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
+                android:layout_width="0dp"
+                android:focusable="true" />
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/dismiss_dialog"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorWhite"
+                android:text="Cansel"
+                android:layout_width="0dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

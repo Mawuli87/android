@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_a"
+    tools:context=".SplashScreen">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivLogoSplash"
+android:layout_marginTop="200dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="100dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/big_eagle" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivLogoWhite"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bible"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>
