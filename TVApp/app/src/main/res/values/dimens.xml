@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_margin_btn">2dp</dimen>
+    <dimen name="bottom_margin_btn_600">4dp</dimen>
+    <dimen name="layout_sw600">30sp</dimen>
+</resources>

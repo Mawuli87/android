@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:background="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    tools:textSize="30sp"
+    tools:layout="navigation_grid">
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
+            android:iconTint="@color/colorAccent"
+            android:actionLayout="@android:layout/simple_gallery_item"/>
+
+        <item android:id="@+id/nav_live_tv"
+            android:icon="@drawable/ic_live_tv_black_24dp"
+            android:actionLayout="@android:layout/simple_gallery_item"
+            android:title="Live TV"/>
+
+
+    </group>
+
+    <item android:title="Library">
+        <menu>
+            <item android:id="@+id/nav_video_library"
+                android:actionLayout="@android:layout/simple_gallery_item"
+                android:icon="@drawable/ic_video_library_black_24dp"
+                android:title=" Recorded"/>
+
+
+            <item android:id="@+id/nav_visite_web"
+                android:icon="@drawable/ic_web_black_24dp"
+                android:title="Website"
+                android:iconTint="@color/colorAccent"
+                android:actionLayout="@android:layout/simple_gallery_item"/>
+
+            <item android:id="@+id/contact"
+                android:actionLayout="@android:layout/simple_gallery_item"
+                android:icon="@drawable/ic_video_library_black_24dp"
+                android:title=" Contact"/>
+
+        </menu>
+    </item>
+
+</menu>
