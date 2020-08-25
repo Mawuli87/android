@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Verify your identity"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+          android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:id="@+id/verifyNumber"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="secret code" />
+
+
+    </LinearLayout>
+
+
+
+    <CheckBox
+        android:id="@+id/cb_show_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Are you authorise to add daily verses ?" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/secretButon"
+        android:text="Send"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

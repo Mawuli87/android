@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg_a"
+    tools:context=".SplashScreen">
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivLogoSplash"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/ivCHTtext"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash_eagle" />
+
+
+    <TextView
+        android:id="@+id/ivCHTtext"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="80dp"
+        android:text="Word Bride Fellowship"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogoWhite"
+        app:layout_constraintVertical_bias="0.012" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivLogoWhite"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_below="@+id/ivCHTtext"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_slash"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

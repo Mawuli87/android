@@ -1,0 +1,2 @@
+rootProject.name='Word Bride Fellowship'
+include ':app'
