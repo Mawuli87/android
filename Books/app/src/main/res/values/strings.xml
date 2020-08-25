@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Books</string>
+    <string name="error_data_message">Error Loading Data From Google Books</string>
+    <string name="search">Search</string>
+
+    <string name="hint_title">Insert Title</string>
+    <string name="hint_author">Insert Author(s) Name</string>
+    <string name="hint_publisher">Insert Publisher</string>
+    <string name="hint_ISBN">Insert ISBN</string>
+    <string name="advanced_search">Advanced Search</string>
+    <string name="no_serch_data">Please insert valid search terms</string>
+</resources>
